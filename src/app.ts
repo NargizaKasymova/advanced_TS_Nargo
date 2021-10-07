@@ -8,11 +8,11 @@ const max = new Person('Maxim')
 
 //demo comment
 
-const btn = document.querySelector("#btn")!
+// const btn = document.querySelector("#btn")!
 
-btn.addEventListener('click', () => {
-    console.log('Btn clicked')
-})
+// btn.addEventListener('click', () => {
+//     console.log('Btn clicked')
+// })
 // const map = new Map()
 let anyFlag
 const global = "Message"
