@@ -123,18 +123,18 @@ function validate(obj: any) {
     return isValid
 }
 
-class Form {
-@Required
-public email: string | void
+// class Form {
+// @Required
+// public email: string | void
 
-    constructor(email?: string) {
-        this.email = email
-    }
-}
-const form = new Form()
+//     constructor(email?: string) {
+//         this.email = email
+//     }
+// }
+// const form = new Form('nargokasymova@gmail.com')
 
-if(validate(form)) {
-    console.log('Valid', form)
-} else {
-console.log('Validate Error')
-}
+// if(validate(form)) {
+//     console.log('Valid', form)
+// } else {
+// console.log('Validation Error')
+// }
