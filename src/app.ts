@@ -15,9 +15,19 @@ btn.addEventListener('click', () => {
 })
 // const map = new Map()
 let anyFlag
-function logInfo(data: string) {
+const global = "Message"
+
+function logInfo(data: string, _?: number) {
     console.log(data)
-    anyflag = true
+    // const message = "String"
+    anyFlag = true
     console.log(anyFlag)
 }
 logInfo('I am log string')
+
+function multiple(a: number, b: number): number {
+    if(a && b) {
+        return a * b
+    } 
+return 0
+}
