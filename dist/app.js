@@ -1,5 +1,4 @@
 "use strict";
-// console.log("App.ts!")
 class Person {
     constructor(name) {
         this.name = name;
@@ -7,8 +6,11 @@ class Person {
 }
 const max = new Person('Maxim');
 const btn = document.querySelector("#btn");
-btn === null || btn === void 0 ? void 0 : btn.addEventListener('click', () => {
+btn.addEventListener('click', () => {
     console.log('Btn clicked');
 });
-// const map = new Map()
+function logInfo(data) {
+    console.log(data);
+}
+logInfo('I am log string');
 //# sourceMappingURL=app.js.map

@@ -6,9 +6,18 @@ class Person {
 
 const max = new Person('Maxim')
 
-const btn: Element = document.querySelector("#btn")
+//demo comment
 
-btn?.addEventListener('click', () => {
+const btn = document.querySelector("#btn")!
+
+btn.addEventListener('click', () => {
     console.log('Btn clicked')
 })
 // const map = new Map()
+let anyFlag
+function logInfo(data: string) {
+    console.log(data)
+    anyflag = true
+    console.log(anyFlag)
+}
+logInfo('I am log string')
